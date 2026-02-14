@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="mylove.css">
-    <link rel="stylesheet" href="mylove.js">
+    <link rel="script" href="mylove.js">
 </head>
 <body>
     <div class="header">
@@ -22,7 +22,20 @@
         </ul>
     </div>
     <div class="hbd">
-
+        <div class="text"><span>Meu amor... Eu te amo, te amei e te amarei. Você foi como uma luz em minha vida...
+Me lembro como se fosse ontem do nosso primeiro encontro; desde que te vi pela primeira vez, eu fiquei cativado!
+Você foi e está sendo a pessoa mais importante da minha vida!
+Você mudou tudo, da minha base ao meu firmamento.
+Me sinto extremamente bem e feliz por estar com você. Eu tentei ser, para você, o que eu não fui para ninguém; eu quis me corrigir por você...
+Talvez tenha dado certo, não sei...
+Aproveite seu dia linda!!!
+Feliz 19! EU TE AMO!!!</span>
+<button><span>FELIZ ANIVERSÁRIO </span></button>
+</div>
+<div class="kids">
+    <img height="400px" src="https://media.discordapp.net/attachments/871821181962055692/1472019281746202695/dreamina-2026-02-13-8129-Referencia_a_menina_na_Imagem_1_e_ao_men....jpeg?ex=69910c49&is=698fbac9&hm=1731eb5f7c1aafe290b2f6689391150cff7592913a3a94315a865f6572ccb794&=&format=webp&width=534&height=534" alt="">
+    <span>I LOVE YOU 💜!</span>
+</div>
     </div>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -109,9 +122,57 @@ span{
     height: 100%;
     width: 100%;
 }
+.hbd .text{
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+}
+.hbd .text span{
+    text-align: justify;
+    font-family: Alfa-Slab-One, cursive;
+}
+button{
+    font-weight: 550;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #3a1131;
+}
+.kids{
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    animation: 1s ease-in-out linear;
+}
+.kids span{
+    text-align: center;
+    width: 100%;
+}
     </style>
+    </style>
+<script>
+    var abrirImg = document.querySelector('button')
+    var caixa = document.querySelector('.kids')
+
+abrirImg.addEventListener("click", function(){
+    caixa.style.display = 'flex'
+})
 </body>
 </html>
+
 
 
 
